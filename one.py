@@ -263,11 +263,11 @@ bnglCodes = [
 562107]
 
 
-a = int(input("Enter your pincode:"))
+a = int(input("Enter your Area pincode:"))
 
 if a in bnglCodes:
-    print ("Address is currect")
+    print ("Pincode is currect")
 
 else:
-    print(("wrong address! try Again"))
+    print(("wrong Pincode! try Again"))
     
